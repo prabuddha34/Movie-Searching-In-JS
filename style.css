@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, #667eea, #764ba2); /* Blue to Purple */
+  color: white;
+
+}
+
+#myh1{
+    font-family: monospace;
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding: 40px;
+    margin: 50px;
+    text-align: center;
+    color: black;
+}
+
+#inputmovie {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 20px;     
+ margin: 7px auto;   
+  text-align: center;
+  display: block;   
+}
+
+#submitButton {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 2rem;
+  background-color: rgb(16, 16, 57);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px auto; 
+  text-align: center;
+  display: block;   
+  cursor: pointer;
+}
+
+#output-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;         
+    padding: 20px;
+  background-color: #f31111; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+ font-family: monospace;
+ font-size: 1.6rem;
+ font-weight: bold;
+  color: #333;
+  text-align: center;
+}
