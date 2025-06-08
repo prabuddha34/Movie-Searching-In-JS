@@ -10,7 +10,7 @@ mySubmit.addEventListener("click", () => {
     return;
   }
 
-  fetch(`http://www.omdbapi.com/?t=${movieName}&apikey=b9531fb4`)
+   fetch(`https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/?t=${movieName}&apikey=b9531fb4`)
     .then(response => response.json())
     .then(data => {
       if (data.Response === "False") {
