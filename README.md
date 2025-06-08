@@ -37,6 +37,14 @@ This is a simple web-based application that allows users to search for movies us
 
 ---
 
+
+## Screenshot
+
+![Screenshot 2025-06-08 183209](https://github.com/user-attachments/assets/d540a973-7756-4bc6-88e8-c7b474c813b3)
+
+
+---
+
 ## 🔑 API Key
 
 This app uses a **free OMDb API key**.
@@ -47,3 +55,4 @@ If you'd like to use your own key:
 3. Replace this part in `index.js`:
    ```javascript
    fetch(`http://www.omdbapi.com/?t=${movieName}&apikey=YOUR_API_KEY`)
+
